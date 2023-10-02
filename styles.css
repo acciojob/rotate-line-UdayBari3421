@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+/*  
+Color: Black
+Width: 200px
+Height: 2px
+Position: Absolute
+Top and left positioning: 50% (centered on the screen)
+Change the angle 2deg every 20 milliseconds
+*/
+
+#line{
+	width: 200px;
+	border-bottom: 2px solid black;
+	height:2px;
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+
