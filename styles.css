@@ -8,11 +8,12 @@ Change the angle 2deg every 20 milliseconds
 */
 
 #line{
-	width: 200px;
-	border-bottom: 2px solid black;
-	height:2px;
 	position: absolute;
-	top:50%;
-	left:50%;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 2px;
+      background-color: black;
+      transform-origin: 50%;
 }
 
